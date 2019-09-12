@@ -4,7 +4,7 @@
 	<table>
 		<thead>
 			<tr>
-	<td><a color="black" href="https://danish0311.github.io/Website/"><em>Website Link</em></a></td>
+	<td><a color="black" href="https://danish0311.github.io/Website/"><strong>Home Page</strong></a></td>
 	<td><header><a href="https://github.com/Danish0311/Website/blob/gh-pages/about.html">About Page</a></header></td>
 			</tr>
 		</thead>

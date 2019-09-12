@@ -11,7 +11,7 @@
 	</table>
 </head>
 <body>
-<h1 class="blue">Website</h1>
+<h1 class="blue">Danish's Website</h1>
 <p>My first paragraph.</p>
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQbc2K8jkkV9cp5902PZVYlP1bWZhJKqsgz3cL5UJ1Qso-53yx" alt="Spongebob"/>
 </body>

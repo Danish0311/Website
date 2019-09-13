@@ -8,8 +8,17 @@ a {
 	color: black;
 }
 tr {
-	color: black;
+	background-color: black;
 	}
 .arial {
 	font-family: arial;
+}
+.background{
+	background: skyblue;
+}
+.white {
+	color: white;
+}
+.permanentmarker {
+	font-family: permanentmarker;
 }

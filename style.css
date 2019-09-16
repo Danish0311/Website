@@ -22,3 +22,6 @@ tr {
 .permanentmarker {
 	font-family: permanentmarker;
 }
+.space {
+	margin: 5px;
+}

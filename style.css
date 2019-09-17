@@ -13,7 +13,7 @@ tr {
 .arial {
 	font-family: arial;
 }
-.background{
+.blueback {
 	background: skyblue;
 }
 .white {
@@ -24,4 +24,17 @@ tr {
 }
 .space {
 	margin: 5px;
+}
+.navbar {
+	width: 1350px;
+	float
+}
+button {
+	padding: 40px 30px;
+	margin: 80px;
+	align-content: center;
+	background: red;
+}
+.greenback {
+	background: green;
 }

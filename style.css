@@ -19,22 +19,26 @@ tr {
 .white {
 	color: white;
 }
-.permanentmarker {
-	font-family: permanentmarker;
-}
 .space {
 	margin: 5px;
 }
 .navbar {
 	width: 1350px;
-	float
+	float: all;
 }
 button {
 	padding: 40px 30px;
 	margin: 80px;
 	align-content: center;
 	background: red;
+	color: white;
+	font-family: timesnewroman;
+	font-size: 15px;
 }
 .greenback {
-	background: green;
+	background: limegreen;
+}
+.ap {
+	height: 150px;
+	width: 300px;
 }

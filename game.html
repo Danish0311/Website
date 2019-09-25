@@ -3,22 +3,20 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script>
-		
-		function ask(){
-			var x =prompt("What's your name?");
-			if (x === 'Danish' || x === 'danish'){
-				alert(x + "" + "is a good name")
-			} else {
-				alert(x + "" + "is an okay name")
+	function ask(){
+			var x =prompt("Guess the number between 1 & 100:");
+			if (x === '69'){
+				alert("Nice")
+			} if (x <= 68) {
+				alert("higher")
+			} if (x >= 70) {
+				alert("lower")
 			}
 		}
-	function pop(){
-			alert("heyOOOOOOO");
-}
 	</script>
 
 </head>
-<body class="greenback">	
+<body class="rb">	
 	<table class="navbar">
 		<thead>
 			<tr>
@@ -32,33 +30,12 @@
 		</thead>
 	</table>
 
-<h1>Assignments</h1>
 
 
 
-<button onclick="pop()">
-click on me
+<button onclick="ask()" class="game">
+Click To Play!
 </button>
-<button onclick="ask()">
-click on me
-</button>
-<button>
-Assignment #1
-</button>
-<button>
-Assignment #2
-</button>
-<button>
-Assignment #3
-</button>
-<button>
-Assignment #4
-</button>
-<button>
-Assignment #5
-</button>
-<button>
-Assignment #6
-</button>
+
 </body>
 </html>

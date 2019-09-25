@@ -45,3 +45,14 @@ button {
 .ob {
 	background: orange;
 }
+.game {
+	padding: 100px 200px;
+	font-size: 100px;
+	text-align: center;
+	margin-left: 180px;
+	margin-top: 100px;
+	background-color: skyblue;
+}
+.rb {
+	background-color: red;
+}

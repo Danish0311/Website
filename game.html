@@ -4,20 +4,26 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script>
 	function ask(){
-			var x =prompt("Guess the number between 1 & 100:");
-			if (x === '69'){
-				alert("Nice")
-			} if (x <= 68) {
-				alert("higher")
-			} if (x >= 70) {
-				alert("lower")
+		var x = prompt("Guess the number between 1 & 100:");
+			while (x != 69) {
+			if (x <= 68) {
+				x = prompt("higher")
+			} else if (x >= 70) {
+				x = prompt("lower")
+			} else {
+				x = prompt("error")
 			}
 		}
+			if (x = 69) {
+				alert("Nice")
+			}
+	}
 	</script>
 
 </head>
 <body class="rb">	
-	<table class="navbar">
+
+<table class="navbar">
 		<thead>
 			<tr>
 	<td><h3>
@@ -29,9 +35,6 @@
 			</tr>
 		</thead>
 	</table>
-
-
-
 
 <button onclick="ask()" class="game">
 Click To Play!

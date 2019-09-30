@@ -24,9 +24,9 @@ tr {
 }
 .navbar {
 	width: 1350px;
-    border: 50px;
-    border-color: white;
-    
+    border: 2px solid white;
+    position: fixed; 
+    margin-bottom: 20px;
 }
 button {
 	padding: 40px 30px;
@@ -58,4 +58,12 @@ button {
 }
 .rb {
 	background-color: red;
+}
+.navbar a:hover {
+	background-color: white;
+	color: black;
+}
+button:hover {
+	background-color: white;
+	color: red;
 }

@@ -13,7 +13,7 @@ function pop(){
 }
 
 
-function ask(){
+function ask2(){
 	var x = prompt("Guess the number between 1 & 100:");
 		while (x != 69) {
 		if (x <= 68) {
@@ -32,14 +32,11 @@ function ask(){
 function e(){
 	var x = prompt("Please enter a number");
 	var y = prompt("Enter another one");
-		if (x > y){
+		if (x >= y){
 			alert(x)
 		}
-		else if (x < y){
+		else if (x =< y){
 			alert(y)
-		}
-		else if (x === y){
-			alert(x)
 		}
 		else {
 			prompt("That is not a number")

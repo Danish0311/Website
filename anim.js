@@ -38,8 +38,5 @@ function e(){
 		else if (x =< y){
 			alert(y)
 		}
-		else {
-			prompt("That is not a number")
-		}
 }
 

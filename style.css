@@ -36,6 +36,8 @@ button {
 	color: white;
 	font-family: timesnewroman;
 	font-size: 15px;
+	-webkit-transition-duration: 1s;
+	cursor: grab;
 }
 .greenback {
 	background: limegreen;
@@ -55,6 +57,8 @@ button {
 	margin-top: 100px;
 	background-color: skyblue;
 	border-radius: 50px;
+	-webkit-transition-duration: 1s;
+	cursor: grab;
 }
 .rb {
 	background-color: red;

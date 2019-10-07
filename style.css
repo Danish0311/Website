@@ -24,7 +24,7 @@ tr {
 }
 .navbar {
 	width: 1350px;
-    border: 2px solid white;
+    border: 4px solid white;
     position: fixed; 
     margin-bottom: 20px;
 }
@@ -72,8 +72,23 @@ button:hover {
 	color: red;
 }
 .a2b {
-	padding-left: 20px;
+	padding-left: 60px;
+	padding-right: 60px;
+	margin-left: 400px;
+	font-size: 40px;
+	border-radius: 50px;
+	background-color: green;
+}
+.a2b:hover {
+	background-color: white;
+	color: green;
 }
 .cw {
 	color: white;
+}
+.as2 {
+	position: fixed;
+}
+#taf {
+	margin-left: 360px;
 }

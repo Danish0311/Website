@@ -54,3 +54,9 @@ function c(){
 	var z =(y + 1)
 		alert("This year is in the" + " " + Math.floor(z) + "th century")
 }
+
+function angle(){
+	var x = prompt("Enter one angle of a triangle (the number only)")
+	var y = prompt("Enter the other angle (the number only)")
+		alert(180 - x - y + " " + "Degrees is the other angle of the triangle")
+}

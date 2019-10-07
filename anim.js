@@ -48,3 +48,9 @@ function o(){
 	}
 }
 
+function c(){
+	var x = prompt("Enter any year")
+	var y =(x/100)
+	var z =(y + 1)
+		alert("This year is in the" + " " + Math.floor(z) + "th century")
+}

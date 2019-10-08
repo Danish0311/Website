@@ -42,11 +42,20 @@ function e(){
 
 function o(){
 	var x = 0;
-	while (x < 100){
-		x = x+1
-		console.log(x)
+	while (x <= 100){
+		x = x + 1;
+			if(x % 4 == 0 && x % 10 == 0){
+				console.log("fourten");
+			}else if(x % 10 == 0){
+				console.log("ten");
+			}else if(x % 4 == 0){
+				console.log("four");
+			}else{
+				console.log(x);
+			}
+		}
 	}
-}
+
 
 function c(){
 	var x = prompt("Enter any year")

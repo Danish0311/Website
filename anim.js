@@ -42,7 +42,7 @@ function e(){
 
 function o(){
 	var x = 0;
-	while (x <= 100){
+	while (x <= 99){
 		x = x + 1;
 			if(x % 4 == 0 && x % 10 == 0){
 				console.log("fourten");

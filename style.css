@@ -86,6 +86,10 @@ button:hover {
 .cw {
 	color: white;
 }
+.cw:hover {
+	color: red;
+	background-color: white;
+}
 .as2 {
 	position: fixed;
 }

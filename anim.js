@@ -58,11 +58,25 @@ function o(){
 
 
 function c(){
-	var x = prompt("Enter any year")
-	var y =(x/100)
-	var z =(y + 1)
-		alert("This year is in the" + " " + Math.floor(z) + "th century")
-}
+	var x = prompt("Enter any year");
+	var y =(x/100);
+	var z =(Math.floor(y + 1));
+		if (z == 12){
+			alert("This year is in the" + " " + z + "th century");
+		} else if (z == 13){
+			alert("This year is in the" + " " + z + "th century");
+		} else if (z == 11){
+			alert("This year is in the" + " " + z + "th century");
+		} else if (z % 10 == 1 ){
+			alert("This year is in the" + " " + z + "st century");
+		} else if (z % 10 == 2 ){
+			alert("This year is in the" + " " + z + "nd century");
+		} else if (z % 10 == 3){
+			alert("This year is in the" + " " + z + "rd century");
+		} else {
+			alert("This year is in the" + " " + z + "th century");
+		}
+	}
 
 function angle(){
 	var x = prompt("Enter one angle of a triangle (the number only)")

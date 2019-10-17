@@ -88,7 +88,16 @@ button:hover {
 	color: green;
 }
 .cw {
+	padding: 10px 10px;
+	margin: -10px;
+	align-content: center;
+	background: red;
 	color: white;
+	font-family: timesnewroman;
+	font-size: 15px;
+	-webkit-transition-duration: 1s;
+	cursor: grab;
+}
 }
 .cw:hover {
 	color: red;

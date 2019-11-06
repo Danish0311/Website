@@ -83,3 +83,52 @@ function angle(){
 	var y = prompt("Enter the other angle (the number only)")
 		alert(180 - x - y + " " + "Degrees is the other angle of the triangle")
 }
+
+function calculator(){
+	var a = parseInt(document.querySelector("#value1").value);
+	var b = parseInt(document.querySelector("#value2").value);
+	var op = parseInt(document.querySelector("#operator").value);
+	var calculate;
+
+	if (op == "add"){
+		calculate = a + b;
+	} else if (op == "min"){
+		calculate = a - b;
+	} else if (op == "mul"){
+		calculate = a * b;
+	} else if (op == "div"){
+		calculate = a / b;
+	}
+
+	document.querySelector("#result").innerHTML = calculate;
+}
+
+function m4e1(){
+	var a = prompt("Enter a string")
+	var b = a.length
+	alert (b)
+}
+
+function m4e2(){
+	var a = prompt("Enter Username")
+	var b = prompt("Enter Password")
+	var c = a.toLowerCase()
+
+	if (c == "danish" && b == 123){
+		alert ("Correct")
+	} else {
+		alert ("Username Or Passord is Incorrect")
+	}
+}
+
+function m4e3(){
+	var a = prompt("Enter a string")
+	var c = a.toLowerCase()
+
+	for (var i = 1; i <= a.length; i+=2) {
+	
+	var b = (a[i].toUpperCase())
+
+	}
+}
+	

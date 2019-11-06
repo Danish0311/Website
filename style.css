@@ -117,3 +117,8 @@ button:hover {
 	border-radius: 50px;
 	background-color: green;
 }
+
+.calc {
+	padding-top: 50px;
+	padding-left: 200px;
+}

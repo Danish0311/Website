@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Danish's Portfolio</title>
 	<script type="text/javascript" src="anim.js"></script>
 </head>
 
-<body class="greenback">	
+<body class="blueback">	
 	<table class="navbar">
 		<thead>
 			<tr>
@@ -21,39 +20,20 @@
 		</thead>
 	</table>
 
-<br>
-<br>
-<br>
-<br>
+<form class="calc">
+	value 1: <input type="text" id="value1">
+	value 2: <input type="text" id="value2">
+	Operator:
+	<select id="operator">
+		<option value="add">Add</option>
+		<option value="min">Minus</option>
+		<option value="div">Division</option>
+		<option value="mul">Multiply</option>
+	</select>
+<button type="button" onclick="calculator()">Calculate</button>
+</form>
 
+<div id="result"></div>
 
-<h1>Assignments</h1>
-
-
-
-<button onclick="pop()">
-Click for Assignment #1
-</button>
-<button onclick="e()">
---Excercise Module #2--
-</button>
-<button>
-<a href="assignment2.html" class="cw">Click for Assignment #2</a>
-</button>
-<button onclick="m4e1()">
--Excercise 1 Module #4-
-</button>
-<button onclick="m4e2()">
--Excercise 2 Module #4-
-</button>
-<button onclick="m4e3()">
--Excercise 3 Module #4-
-</button>
-<button>
-Click for Assignment #6
-</button>
-<button>
-Click for Assignment #7
-</button>
-</body>
+	</body>
 </html>

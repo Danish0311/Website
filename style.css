@@ -87,6 +87,18 @@ button:hover {
 	background-color: white;
 	color: green;
 }
+.a6a {
+	padding-left: 60px;
+	padding-right: 60px;
+	margin-left: 550px;
+	font-size: 40px;
+	border-radius: 50px;
+	background-color: green;
+}
+.a6a:hover {
+	background-color: white;
+	color: blue;
+}
 .cw {
 	padding: 10px 10px;
 	margin: -10px;

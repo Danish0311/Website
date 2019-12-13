@@ -169,13 +169,13 @@ function EN(){
    if (/[0-9]/.test(a)){
       alert("null")
     }else{
-      alert(c)
+      alert(c.split("").reverse().join(""))
     }
 }
 
 function DE(){
   var a = prompt("Enter the keyword")
-  const b = a.toLowerCase()
+  const b = a.toLowerCase().split("").reverse().join("")
   var c = b.replace(/!/g, "a").replace(/@/g, "b").replace(/#/g, "c").replace(/1/g, "d").replace(/%/g, "e").replace(/2/g, "f").replace(/&/g, "g").replace(/;/g, "h").replace(/4/g, "i").replace(/'/g, "j").replace(/5/g, "k").replace(/-/g, "l").replace(/6/g, "m").replace(/3/g, "n").replace(/:/g, "o").replace(/</g, "p").replace(/>/g, "q").replace(/,/g, "r").replace(/0/g, "s").replace(/9/g, "t").replace(/`/g, "u").replace(/8/g, "v").replace(/=/g, "w").replace(/7/g, "x").replace(/_/g, "y").replace(/~/g, "z")
   
       alert(c)
